@@ -1,8 +1,9 @@
-1. java와 객체지향에 대해서 정리하기 : https://www.notion.so/java-a86f19f9bbc64169925469d6d9676204
+# 1. java와 객체지향에 대해서 정리하기 : https://www.notion.so/java-a86f19f9bbc64169925469d6d9676204
 나의 노션 링크이다. 여기서 java와 객체 지향에 대해서 정리하고 관련 자료들을 읽어보았다. 이 과정에서 생활코딩의 유튜브를 많이 참고하였다.
 
-2. 코드 구현
+# 2. 코드 구현
 Main.java 코드
+```
 public class Main {
     public static void main(String[] args) {
         Calculator calculator = new Calculator() {
@@ -50,16 +51,19 @@ public class Main {
         }
     }
 }
-
+```
 Animal.java 코드
+```
 public abstract class Animal {
     public abstract void speak();
 }
-
+```
 Calculator.java 코드
+```
 public interface Calculator {
     int plus(int a, int b);
     int minus(int a, int b);
     int mul(int a, int b);
     int div(int a, int b);
 }
+```
