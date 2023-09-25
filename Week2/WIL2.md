@@ -120,7 +120,7 @@ HTTPS 웹 애플리케이션은 HTTP 애플리케이션보다 로드 속도가 �
 | 이벤트 등록 | post | /events |
 | 이벤트 수정 | put | /events |
 | 이벤트 삭제 | delete | /events/{eventId} |
-| 이벤트 상태 변경 | put | /events/{event_id}/status |
+| 이벤트 상태 변경 | put | /events/{eventId}/status |
 | 특정 이벤트의 주문 목록 조회 | get | /events/{eventId}/orders |
 | 멤버 목록 조회 | get | /members |
 | 특정 멤버 권한 변경 | put | /members/{memberId}/permission |
