@@ -25,9 +25,9 @@
 
 HTTP 연결 과정을 요약하자면 다음과 같다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/956ff5d2-3ef3-459b-abde-09ddbf04fc0f/af1cf356-216e-472a-be74-20b46ca39ca1/Untitled.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/956ff5d2-3ef3-459b-abde-09ddbf04fc0f/75bcf97d-a488-4eeb-96b4-859410b2330f/Untitled.png)
+
+
 
 1. TCP 연결을 열어달라고 요청, 열어줌
 2. HTTP request 메세지 전송
@@ -40,7 +40,7 @@ HTTP는 HTTP message를 이용해서 데이터를 주고받는다.
 
 HTTP message에는 request와 response가 있다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/956ff5d2-3ef3-459b-abde-09ddbf04fc0f/46c5b48e-296d-415a-90ad-fc7b96703d86/Untitled.png)
+
 
 ### HTTP Method
 
